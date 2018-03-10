@@ -38,8 +38,6 @@ class MainViewController: UIViewController {
         let data = UserData()
         
         data.getData(completion: { (data) -> Void in
-//            print("Users \(data)")
-            
             self.userData.append(contentsOf: data)
             self.userTableView.reloadData()
         })
@@ -100,12 +98,10 @@ extension MainViewController {
                 if let image = response.result.value {
                     cell.iconImageView.image = image
                     if let index = self.userData.index(of: user) {
-                        print("INDEX \(index)")
                         self.userData[index].image = image
                     } else {
                         cell.iconImageView.image = UIImage(named: "placeholder")
                     }
-                    
                 } else {
                     cell.iconImageView.image = UIImage(named: "placeholder")
                 }
