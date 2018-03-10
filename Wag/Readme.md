@@ -1,7 +1,7 @@
 
 WAG Readme
 
-Using Swift 4 - I know the coding challenge required Objective-C however, I only have minimal experience with this language. The Apps I have built myself and released to the app store as well as the startup company’s apps that I have worked on have all been written in Swift.
+Using Swift 4 - I know the coding challenge required Objective-C however, I only have minimal experience with this language. The Apps I have built myself and released to the app store as well as the startup company’s apps that I have worked on have all been written in Swift. It is not a problem for me to work on an existing project that’s written in Objective-C but it’s certainly easier to build one from ground up in Swift. I also have experience with using Objective-C code in a Swift project and creating bridging headers.
 
 Model Data - I created a User.swift file to store my model code.
 - Created two Structs - User && Badges
